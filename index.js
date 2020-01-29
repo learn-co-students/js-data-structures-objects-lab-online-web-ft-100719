@@ -1,14 +1,5 @@
 // Write your solution in this file!
 const driver = {}
-driver = {
-  cheesePlate: {
-    soft: 'Brie',
-    semiSoft: 'Fontina',
-    hard: 'Provolone'
-  },
-  fries: 'Sweet potato',
-  salad: 'Southwestern'
-};
 
 function updateDriverWithKeyAndValue(driver, key, value) {
   const newObj = { ...driver };
